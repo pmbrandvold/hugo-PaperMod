@@ -6,6 +6,9 @@
     <div class="entry-content">
         {{ .Content | markdownify }}
     </div>
+    <div class="entry-image">
+        <img src="{{ .ImageURL }}" alt="{{ .ImageAltText }}">
+    </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
