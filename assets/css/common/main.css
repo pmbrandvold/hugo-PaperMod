@@ -62,7 +62,9 @@ pre {
     user-select: none;
 }
 
-div.highlight:hover .copy-code,
-pre:hover .copy-code {
-    display: block;
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
